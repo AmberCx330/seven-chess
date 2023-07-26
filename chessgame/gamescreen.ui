@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gamescreen</class>
+ <widget class="QWidget" name="gamescreen">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1150</width>
+    <height>940</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1150</width>
+    <height>940</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1150</width>
+    <height>940</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>七子棋</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/background.jpeg);
+image: url(:/background.jpeg);
+background-image: url(:/background.jpeg);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>380</y>
+     <width>401</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/start.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
